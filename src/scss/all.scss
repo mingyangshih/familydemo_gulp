@@ -1,0 +1,191 @@
+@import '../../bower_components/bootstrap/scss/functions';
+@import './variables';
+@import '../../bower_components/bootstrap/scss/bootstrap';
+@import './login';
+body{
+  background-image: url('../img/bg.jpg');
+  font-family: "微軟正黑體", "Microsoft JhengHei";
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainImg{
+  max-width: 100%;
+  margin:0 auto;
+}
+.bgSettiing{
+  max-width: 100%;
+  height: auto;
+}
+// top button 
+.TOP_BUTTON_BOX{
+  box-sizing: border-box;
+}
+// table
+.table{
+  th{
+    background: #d60f0e;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 4vmin;
+  }
+  td{
+    background: white;
+    color: #666666;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3vmin;
+    font-weight: bold;
+    border-bottom: #666666 1px solid;
+  }
+}
+@media(min-width: 1024px){
+  .table{
+    th{
+      font-size: 16px;
+    }
+    td{
+      font-size: 16px;
+    }
+  }
+}
+// 黃色背景圖統一管理
+.titleImg{
+  position: absolute;
+  top: -25px;
+  text-align: center;
+  z-index: 2;
+  img{
+    max-width: 100%;
+  }
+}
+// 增福運
+.titleBBox{
+  // max-width: 360px;
+  max-height: 380px;
+  box-sizing: border-box;
+  border: #fff352 3px solid;
+  background: white;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 170px 2fr 1fr;
+  margin-bottom: 60px;
+  position: relative;
+  padding: 20px 0 15px 0;
+  p{
+    font-size: 18px;
+    color: #666666;
+  }
+  .imgBox{
+    text-align: center;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // max-width: 360px;
+    max-height: 360px;
+  }
+  .wordBox{
+    grid-row:2/3;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+  .buttonBox{
+    grid-row: 3/4;
+    grid-column:1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media(min-width: 1024px){
+  .titleBBox{
+    padding: 30px 0 0 0;
+    grid-template-rows: 170px 2fr 1fr;
+    p{
+      font-size: 18px;
+   }    
+  }
+  .button{
+    font-size: 16px;
+  }
+}
+.button{
+  width: 80%;
+  height: 40px;
+  border-radius: 20px;
+  background: #d60f0e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// 鎮瀾宮
+.temple{
+  border: #fff352 3px solid;
+  padding-bottom: 16px;
+  position: relative;
+  z-index: 1;
+  p{
+    font-size: 18px;
+  }
+}
+.friday{
+  border: #fff352 3px solid;
+  position: relative;
+  margin-top: 60px;
+  padding: 0 30px;
+  p{
+    font-size: 18px;
+    &.notice{
+      font-size: 20px;
+    }
+  }
+  li{font-size: 18px;}
+}
+// 享福運、添福運
+.enjoy{
+  .titleCBox{
+    border: #fff352 3px solid;
+    margin-bottom: 40px;
+    .title{
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
+// 注意事項
+.noticeItem{
+  p{
+    font-size: 18px;
+  }
+  .title-S{
+    background-image: url(../img/title-S.png);
+    background-repeat: no-repeat;
+    height: 48px;
+    p{
+      font-size: 18px;
+      color:#754c24;
+      font-weight: bold;
+    }
+  }
+  ol{
+    padding-inline-start: 25px;
+  }
+  li{
+    color: white;
+  }
+  .secondPartTitle{
+    color: #ffcc00;
+    font-weight: bold;
+  }
+}

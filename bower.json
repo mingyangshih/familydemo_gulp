@@ -1,0 +1,21 @@
+{
+  "name": "familymart",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "ming"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}

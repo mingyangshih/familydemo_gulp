@@ -1,0 +1,33 @@
+{
+  "name": "familymart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "ming",
+  "license": "ISC",
+  "browserslist": [
+    "last 10 version",
+    "> 1%",
+    "IE 10",
+    "> 5% in alt-AS"
+  ],
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.1.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "main-bower-files": "^2.13.3"
+  }
+}
