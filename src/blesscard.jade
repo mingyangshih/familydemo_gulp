@@ -10,437 +10,450 @@ html(lang="en")
       .row.justify-content-center
         .bgSetting
           img(src="./img/kv.jpg", alt="").img-fluid
-      .row.justify-content-center.TOP_BUTTON_BOX.py-md-5.mx-0.mt-3
-        .col-3.px-0.mb-md-3
-          img(src="./img/TOP_Button_A.png").img-fluid
-        .col-3.px-0.mb-md-3
-          img(src="./img/TOP_Button_B.png").img-fluid
-        .col-3.px-0.mb-md-3
-          img(src="./img/TOP_Button_C.png").img-fluid
-        .col-3.px-0.mb-md-3
-          img(src="./img/TOP_Button_D.png").img-fluid
-        .col-3.px-0
-          img.img-fluid(src="./img/TOP_Button_E.png")
-        .col-3.px-0
-          img.img-fluid(src="./img/TOP_Button_F.png")
-        .col-3.px-0
-          img.img-fluid(src="./img/TOP_Button_G.png")
-        .col-3.px-0
-          img.img-fluid(src="./img/TOP_Button_H.png")
+      .row.my-4
+        .col-12
+          .showPresentBox.d-flex.flex-column.justify-content-center.align-items-center
+            h3.font-weight-bold.text-danger 頭獎
+            input(type="text" disabled placeholder="掃完自動帶入值").form-control.rounded-0.w-75.text-center.mb-3
+            button.btn.btn-outline-secondary.w-50.font-weight-bold.mb-5 登錄抽獎
+            h3.font-weight-bold.text-danger 加值獎
+            .bgSetting.mb-2
+              img(src="./img/productA_8.jpg")
+            p.font-weight-bold.mb-1 iPhone11 64GB(6名)(獎項名稱)
+            p.font-weight-bold.mb-1 顏色隨機(描述)
+            P.mb-1.font-weight-bold 市價：<span class="text-success">24,900</span> 
+
+      //- .row.justify-content-center.TOP_BUTTON_BOX.py-md-5.mx-0.mt-3
+      //-   .col-3.px-0.mb-md-3
+      //-     img(src="./img/TOP_Button_A.png").img-fluid
+      //-   .col-3.px-0.mb-md-3
+      //-     img(src="./img/TOP_Button_B.png").img-fluid
+      //-   .col-3.px-0.mb-md-3
+      //-     img(src="./img/TOP_Button_C.png").img-fluid
+      //-   .col-3.px-0.mb-md-3
+      //-     img(src="./img/TOP_Button_D.png").img-fluid
+      //-   .col-3.px-0
+      //-     img.img-fluid(src="./img/TOP_Button_E.png")
+      //-   .col-3.px-0
+      //-     img.img-fluid(src="./img/TOP_Button_F.png")
+      //-   .col-3.px-0
+      //-     img.img-fluid(src="./img/TOP_Button_G.png")
+      //-   .col-3.px-0
+      //-     img.img-fluid(src="./img/TOP_Button_H.png")
       //- 抽福運
-      .row.justify-content-center.mt-3
-        .bgSetting
-          img(src="./img/titleA.png").img-fluid
-      .row.justify-content-center
-        .bgSetting
-          img(src="./img/productA_1.png").img-fluid
-      .row.justify-content-center.align-items-center.my-3
-        .col-6.d-flex.justify-content-center.align-items-center.px-0
-          img(src="./img/title-L-A.png").img-fluid
-        .col-6.d-flex.justify-content-center.align-items-center.px-0
-          img(src="./img/title-R-A.jpg").img-fluid
-      .row.jusitf-content-center
-        .table-responsive
-          table.table
-            thead
-              tr
-                th.border-0(width="50") 獎品
-                th.border-0(width="25") 市價
-                th.border-0(width="25") 數量
-            tbody
-              tr
-                td 北歐極光屋、破冰船＆帝王蟹之旅10日雙人遊
-                td 360,000
-                td 1
-              tr
-                td 美西深度國家公園15日雙人遊
-                td 350,000
-                td 1
-              tr
-                td 南美古國秘魯12日雙人遊
-                td 330,000
-                td 1
-              tr
-                td 日本星野假期5日雙人遊
-                td 160,000
-                td 1
-              tr
-                td 埃及古文明尼羅河遊輪紅海10日雙人遊
-                td 150,000
-                td 1
-      .row.justify-content-center.align-items-center.my-3
-          img(src="./img/title-L-B.png").img-fluid
-      .row.jusitf-content-center
-        .table-responsive
-          table.table
-            thead
-              tr
-                th.border-0(width="50") 獎品
-                th.border-0(width="25") 市價
-                th.border-0(width="25") 數量
-            tbody
-              tr
-                td 老爺飯店-老爺套房雙人1泊2食
-                td 68,000
-                td 5
-      //- 增福運
-      .row.justify-content-center
-        .bgSetting
-          img(src="./img/titleB.png").img-fluid
-    .container.mt-5
-      .row.justify-content-center
-        .col-md-6.px-1
-          .bg-white.titleBBox
-            .titleImg.w-100
-              img(src="./img/title-S-A.png")
-            .imgBox
-              img(src="./img/productB1.jpg" alt="productB1").img-fluid
-            .wordBox
-              p.mb-0 全家點數1000萬點(2名)
-              p.mb-0 全家點數100萬點(80名)
-              p.mb-0 UUPON1000點(100名)
-              p.mb-0 HappyGo1000點(100名)
-            .buttonBox
-              a(href="#").button.my-2.text-decoration-none 中獎回函
-        .col-md-6.px-1
-          .bg-white.titleBBox
-            .titleImg.w-100
-              img(src="./img/title-S-B.png")
-            .imgBox
-              img(src="./img/productB2.jpg" alt="productB2").h-100.img-fluid
-            .wordBox
-              p.mb-0 全家中熱每乙杯
-              p.mb-0 市價：35元
-            .buttonBox
-              a(href="#").button.my-2.text-decoration-none APP輸入序號
-        .col-md-6.px-1
-          .bg-white.titleBBox
-            .titleImg.w-100
-              img(src="./img/title-S-C.png")
-            .imgBox
-              img(src="./img/productB3.jpg" alt="productB2").h-100.img-fluid
-            .wordBox
-              p.mb-0 全家購物金
-              p.mb-0 市價：5~100元
-            .buttonBox
-              .button.my-2 臨櫃刷條碼折抵
-        .col-md-6.px-1
-          .bg-white.titleBBox
-            .titleImg.w-100
-              img(src="./img/title-S-D.png")
-            .imgBox
-              img(src="./img/productB4.jpg" alt="productB2").h-100.img-fluid
-            .wordBox
-              p.mb-0 全家專鼠好禮
-              p.mb-0 市價：100~2,999元
-            .buttonBox
-              a(href="#").button.my-2.text-decoration-none 贈品平台登陸
-      .row.justify-content-between.bg-white.temple
-        .titleImg.w-100
-          img(src="../img/title-S-E.png")
-        .col-12.px-0
-          .bg-white.d-flex.flex-column.align-items-center.justify-content-center.pt-5.pb-3
-            img(src="./img/productB5.jpg").img-fluid.mb-4
-            p.mb-0.text-secondary 鎮瀾宮宮徽刺繡腰包
-            p.mb-0.text-secondary.mb-3.mb-lg-0 市價：580元
-        .col-lg-4.bg-white.px-0
-          .d-flex.flex-column.align-items-center.justify-content-center.w-100
-            img(src="./img/productB7.jpg").mb-4
-            p.mb-0.text-secondary 鎮瀾宮手機掛繩
-            p.mb-0.text-secondary.mb-3.mb-lg-0 市價：180元
-        .col-lg-4.bg-white.px-0.w-100
-          .d-flex.justify-content-center.flex-column.align-items-center
-            img(src="./img/productB6.jpg").mb-4
-            p.mb-0.text-secondary 鎮瀾宮和褂造型吊飾
-            p.mb-0.text-secondary.mb-3.mb-lg-0 市價：150元
-        .col-lg-4.bg-white.px-0.w-100
-          .d-flex.justify-content-center.flex-column.align-items-center
-            img(src="./img/productB8.jpg").mb-4
-            p.mb-0.text-secondary 鎮瀾宮平安保庇杯套
-            p.mb-0.text-secondary 市價：150元
-            p.mb-0.text-secondary.mb-3.mb-lg-0 (2色隨機出貨不可挑款)
-        .col-12.mt-3
-          .d-flex.justify-content-center
-            a(href="#").button.text-decoration-none 贈品平台登入
-      .row.justify-content-center.bg-white.friday
-        .titleImg.w-100
-          img(src="../img/title-S-F.png")
-        .bg-white.d-flex.flex-column.align-items-center.justify-content-center.pt-5.pb-3
-            img(src="./img/productB9.jpg").img-fluid
-        .w-100
-          p.mb-3.text-secondary.text-center friDay影音單片序號
-          p.mb-3.text-danger.text-left.font-weight-bold.notice 注意事項：
-          ol
-            li.text-secondary 請註冊/ 登入friDay影音會員，於2020/3/15前至friDay影音序號兌換頁輸入序號完成兌換，兌換成功後7天內可任選1部friDay影音標示「單片」電影免費看，選片後48小時內可無限次數播放。每帳號限領乙次。
-            li.text-secondary friDay影音影片版權只提供台灣地區使用。
-            li.text-secondary 網站使用規範請依friDay影音公告為準， 並保留修改、變更、終止之權利
-        .col-12.my-3
-          .d-flex.justify-content-center
-            a(href="#").button.text-decoration-none 序號兌換登入
-    .container.my-5.enjoy
-      //- 享福運
-      .row.justify-content-center
-        .bgSetting
-          img(src="./img/titleC.png").img-fluid
-      .row.justify-content-center.align-items-center.mt-3.mb-5
-          img(src="./img/title-L-D.png").img-fluid
-      .row
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《A組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《B組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《C組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《D組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《E組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《F組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《G組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《H組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《I組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《J組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《K組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《L組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《M組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《N組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《O組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《P組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《Q組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《R組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《S組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《T組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《U組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《V組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《W組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《X組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《Y組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white
-            p.my-3.text-danger.title 《Z組》
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-    .container.enjoy
-      //- 添福運
-      .row.justify-content-center
-        .bgSetting
-          img(src="./img/titleD.png").img-fluid
-      .row.justify-content-center.align-items-center.mt-3.mb-5
-          img(src="./img/title-L-C.png").img-fluid
-      .row
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
-        .col-lg-3.col-md-6.px-1
-          .titleCBox.bg-white.pt-3
-            .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
-              img(src="https://fakeimg.pl/150x150").img-fluid
-              p.mb-0.text-secondary.mt-3 哈根達斯
-              p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-   .row.justify-content-center.mt-3
+    //-     .bgSetting
+    //-       img(src="./img/titleA.png").img-fluid
+    //-   .row.justify-content-center
+    //-     .bgSetting
+    //-       img(src="./img/productA_1.png").img-fluid
+    //-   .row.justify-content-center.align-items-center.my-3
+    //-     .col-6.d-flex.justify-content-center.align-items-center.px-0
+    //-       img(src="./img/title-L-A.png").img-fluid
+    //-     .col-6.d-flex.justify-content-center.align-items-center.px-0
+    //-       img(src="./img/title-R-A.jpg").img-fluid
+    //-   .row.jusitf-content-center
+    //-     .table-responsive
+    //-       table.table
+    //-         thead
+    //-           tr
+    //-             th.border-0(width="50") 獎品
+    //-             th.border-0(width="25") 市價
+    //-             th.border-0(width="25") 數量
+    //-         tbody
+    //-           tr
+    //-             td 北歐極光屋、破冰船＆帝王蟹之旅10日雙人遊
+    //-             td 360,000
+    //-             td 1
+    //-           tr
+    //-             td 美西深度國家公園15日雙人遊
+    //-             td 350,000
+    //-             td 1
+    //-           tr
+    //-             td 南美古國秘魯12日雙人遊
+    //-             td 330,000
+    //-             td 1
+    //-           tr
+    //-             td 日本星野假期5日雙人遊
+    //-             td 160,000
+    //-             td 1
+    //-           tr
+    //-             td 埃及古文明尼羅河遊輪紅海10日雙人遊
+    //-             td 150,000
+    //-             td 1
+    //-   .row.justify-content-center.align-items-center.my-3
+    //-       img(src="./img/title-L-B.png").img-fluid
+    //-   .row.jusitf-content-center
+    //-     .table-responsive
+    //-       table.table
+    //-         thead
+    //-           tr
+    //-             th.border-0(width="50") 獎品
+    //-             th.border-0(width="25") 市價
+    //-             th.border-0(width="25") 數量
+    //-         tbody
+    //-           tr
+    //-             td 老爺飯店-老爺套房雙人1泊2食
+    //-             td 68,000
+    //-             td 5
+    //-   //- 增福運
+    //-   .row.justify-content-center
+    //-     .bgSetting
+    //-       img(src="./img/titleB.png").img-fluid
+    //- .container.mt-5
+    //-   .row.justify-content-center
+    //-     .col-md-6.px-1
+    //-       .bg-white.titleBBox
+    //-         .titleImg.w-100
+    //-           img(src="./img/title-S-A.png")
+    //-         .imgBox
+    //-           img(src="./img/productB1.jpg" alt="productB1").img-fluid
+    //-         .wordBox
+    //-           p.mb-0 全家點數1000萬點(2名)
+    //-           p.mb-0 全家點數100萬點(80名)
+    //-           p.mb-0 UUPON1000點(100名)
+    //-           p.mb-0 HappyGo1000點(100名)
+    //-         .buttonBox
+    //-           a(href="#").button.my-2.text-decoration-none 中獎回函
+    //-     .col-md-6.px-1
+    //-       .bg-white.titleBBox
+    //-         .titleImg.w-100
+    //-           img(src="./img/title-S-B.png")
+    //-         .imgBox
+    //-           img(src="./img/productB2.jpg" alt="productB2").h-100.img-fluid
+    //-         .wordBox
+    //-           p.mb-0 全家中熱每乙杯
+    //-           p.mb-0 市價：35元
+    //-         .buttonBox
+    //-           a(href="#").button.my-2.text-decoration-none APP輸入序號
+    //-     .col-md-6.px-1
+    //-       .bg-white.titleBBox
+    //-         .titleImg.w-100
+    //-           img(src="./img/title-S-C.png")
+    //-         .imgBox
+    //-           img(src="./img/productB3.jpg" alt="productB2").h-100.img-fluid
+    //-         .wordBox
+    //-           p.mb-0 全家購物金
+    //-           p.mb-0 市價：5~100元
+    //-         .buttonBox
+    //-           .button.my-2 臨櫃刷條碼折抵
+    //-     .col-md-6.px-1
+    //-       .bg-white.titleBBox
+    //-         .titleImg.w-100
+    //-           img(src="./img/title-S-D.png")
+    //-         .imgBox
+    //-           img(src="./img/productB4.jpg" alt="productB2").h-100.img-fluid
+    //-         .wordBox
+    //-           p.mb-0 全家專鼠好禮
+    //-           p.mb-0 市價：100~2,999元
+    //-         .buttonBox
+    //-           a(href="#").button.my-2.text-decoration-none 贈品平台登陸
+    //-   .row.justify-content-between.bg-white.temple
+    //-     .titleImg.w-100
+    //-       img(src="../img/title-S-E.png")
+    //-     .col-12.px-0
+    //-       .bg-white.d-flex.flex-column.align-items-center.justify-content-center.pt-5.pb-3
+    //-         img(src="./img/productB5.jpg").img-fluid.mb-4
+    //-         p.mb-0.text-secondary 鎮瀾宮宮徽刺繡腰包
+    //-         p.mb-0.text-secondary.mb-3.mb-lg-0 市價：580元
+    //-     .col-lg-4.bg-white.px-0
+    //-       .d-flex.flex-column.align-items-center.justify-content-center.w-100
+    //-         img(src="./img/productB7.jpg").mb-4
+    //-         p.mb-0.text-secondary 鎮瀾宮手機掛繩
+    //-         p.mb-0.text-secondary.mb-3.mb-lg-0 市價：180元
+    //-     .col-lg-4.bg-white.px-0.w-100
+    //-       .d-flex.justify-content-center.flex-column.align-items-center
+    //-         img(src="./img/productB6.jpg").mb-4
+    //-         p.mb-0.text-secondary 鎮瀾宮和褂造型吊飾
+    //-         p.mb-0.text-secondary.mb-3.mb-lg-0 市價：150元
+    //-     .col-lg-4.bg-white.px-0.w-100
+    //-       .d-flex.justify-content-center.flex-column.align-items-center
+    //-         img(src="./img/productB8.jpg").mb-4
+    //-         p.mb-0.text-secondary 鎮瀾宮平安保庇杯套
+    //-         p.mb-0.text-secondary 市價：150元
+    //-         p.mb-0.text-secondary.mb-3.mb-lg-0 (2色隨機出貨不可挑款)
+    //-     .col-12.mt-3
+    //-       .d-flex.justify-content-center
+    //-         a(href="#").button.text-decoration-none 贈品平台登入
+    //-   .row.justify-content-center.bg-white.friday
+    //-     .titleImg.w-100
+    //-       img(src="../img/title-S-F.png")
+    //-     .bg-white.d-flex.flex-column.align-items-center.justify-content-center.pt-5.pb-3
+    //-         img(src="./img/productB9.jpg").img-fluid
+    //-     .w-100
+    //-       p.mb-3.text-secondary.text-center friDay影音單片序號
+    //-       p.mb-3.text-danger.text-left.font-weight-bold.notice 注意事項：
+    //-       ol
+    //-         li.text-secondary 請註冊/ 登入friDay影音會員，於2020/3/15前至friDay影音序號兌換頁輸入序號完成兌換，兌換成功後7天內可任選1部friDay影音標示「單片」電影免費看，選片後48小時內可無限次數播放。每帳號限領乙次。
+    //-         li.text-secondary friDay影音影片版權只提供台灣地區使用。
+    //-         li.text-secondary 網站使用規範請依friDay影音公告為準， 並保留修改、變更、終止之權利
+    //-     .col-12.my-3
+    //-       .d-flex.justify-content-center
+    //-         a(href="#").button.text-decoration-none 序號兌換登入
+    //- .container.my-5.enjoy
+    //-   //- 享福運
+    //-   .row.justify-content-center
+    //-     .bgSetting
+    //-       img(src="./img/titleC.png").img-fluid
+    //-   .row.justify-content-center.align-items-center.mt-3.mb-5
+    //-       img(src="./img/title-L-D.png").img-fluid
+    //-   .row
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《A組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《B組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《C組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《D組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《E組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《F組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《G組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《H組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《I組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《J組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《K組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《L組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《M組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《N組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《O組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《P組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《Q組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《R組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《S組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《T組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《U組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《V組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《W組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《X組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《Y組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white
+    //-         p.my-3.text-danger.title 《Z組》
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //- .container.enjoy
+    //-   //- 添福運
+    //-   .row.justify-content-center
+    //-     .bgSetting
+    //-       img(src="./img/titleD.png").img-fluid
+    //-   .row.justify-content-center.align-items-center.mt-3.mb-5
+    //-       img(src="./img/title-L-C.png").img-fluid
+    //-   .row
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
+    //-     .col-lg-3.col-md-6.px-1
+    //-       .titleCBox.bg-white.pt-3
+    //-         .imgBox.w-100.d-flex.flex-column.align-items-center.justify-content-center
+    //-           img(src="https://fakeimg.pl/150x150").img-fluid
+    //-           p.mb-0.text-secondary.mt-3 哈根達斯
+    //-           p.mb-0.text-secondary.mb-3 草莓迷你杯1人
     .container.noticeItem
       //- 注意事項
       .row.justify-content-center
