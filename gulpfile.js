@@ -33,7 +33,7 @@ gulp.task('browser-sync',gulp.series('sass','templates', function(){
   });
   // 有變動時自動更新
   gulp.watch("./src/scss/*.scss", gulp.series('sass'));
-  gulp.watch("./src/img/*", gulp.series('image'));
+  // gulp.watch("./src/img/*", gulp.series('image'));
   gulp.watch("./src/*.jade").on('change', gulp.series('templates', browserSync.reload));
 }));
 
@@ -52,3 +52,4 @@ gulp.task('image', function (done) {
 });
 
 gulp.task('default', gulp.series('templates', 'sass', 'bower', 'image', 'browser-sync'))
+// gulp.task('default', gulp.series('templates', 'sass', 'bower', 'browser-sync'))

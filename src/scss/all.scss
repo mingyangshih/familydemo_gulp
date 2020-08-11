@@ -3,7 +3,11 @@
 @import '../../bower_components/bootstrap/scss/bootstrap';
 @import './login';
 body{
-  background-image: url('../img/bg.jpg');
+  background: rgb(143,219,231);
+}
+.mainImage{
+  background: rgb(143,219,231);
+  // background-image: url('../img/bg.jpg');
   font-family: "微軟正黑體", "Microsoft JhengHei";
 }
 .main{
@@ -15,17 +19,27 @@ body{
   max-width: 100%;
   margin:0 auto;
 }
-.bgSettiing{
+.bgSetting{
   max-width: 100%;
   height: auto;
+  img{
+    max-width: 100%;
+  }
 }
 // 秀中獎背景
-.showPresentBox{
-  padding: 16px;
+.awardBlock{
+  padding: 20px;
   box-sizing: border-box;
-  background: rgba(255,255,255,.5);
-  border-radius: 5px;
+  // background: rgba(0,75,137,.23);
   font-family: "微軟正黑體", "Microsoft JhengHei";
+  .showPresentBox{
+    // border: 6px solid #1268AF;
+    border-radius: 19px;
+    padding:10px;
+  }
+  .title{
+    color:#004B89;
+  }
   .form-control{
     background: rgba(0,0,0,.1);
     color: white;
@@ -33,6 +47,13 @@ body{
       outline: none;
       box-shadow: none;
     }
+  }
+  .btnCustomize{
+    background: #1268AF 0% 0% no-repeat padding-box;
+    border: 4px solid #8FDBE7;
+    border-radius: 30px;
+    color: white;
+    height: 60px;
   }
 } 
 
@@ -180,10 +201,31 @@ body{
     }
   }
 }
+// 贊助單位
+.cooperate{
+  padding: 20px;
+  background: rgba(0,75,137,.05);
+  .bgSetting{
+    max-width: 530px;
+  }
+}
 // 注意事項
+.noticeItemTitle{
+  .bgSetting{
+    max-width: 530px;
+  }
+  .noticeImg{
+    max-width: 530px;
+  }
+}
 .noticeItem{
+  padding: 20px;
+  background: rgba(0,75,137,.05);
+  
   p{
-    font-size: 18px;
+    font-size: 20px;
+    color: #004B89;
+    font-weight: bold;
   }
   .title-S{
     background-image: url(../img/title-S.png);
@@ -198,11 +240,73 @@ body{
   ol{
     padding-inline-start: 25px;
   }
-  li{
-    color: white;
-  }
-  .secondPartTitle{
-    color: #ffcc00;
+  li{    
+    color: #004B89;
     font-weight: bold;
   }
+  .secondPartTitle{
+    color: #004B89;
+    font-weight: bold;
+  }
+}
+// 注意事項收閡
+.noticeOneContent{
+  display: none;
+}
+#noticeOne:checked ~ .noticeOneContent{
+  display:block;
+}
+// #noticeOne ~ .noticeOneDiv{
+//   border-bottom: 1px solid #ffc107;
+// }
+#noticeOne:checked ~ .noticeOneDiv{
+  border-bottom: 0;
+}
+#noticeOne:checked ~ div > label[for="noticeOne"]{
+  .addSvg{
+    display: none;
+  }
+  .minusSvg{
+    display: initial;
+  }
+}
+.noticeSecondContent{
+  display: none;
+}
+#noticeSecond:checked ~ .noticeSecondContent{
+  display:block;
+}
+#noticeSecond:checked ~ div > label[for="noticeSecond"]{
+  .addSvg{
+    display: none;
+  }
+  .minusSvg{
+    display: initial;
+  }
+}
+.noticeThirdContent{
+  display: none;
+}
+#noticeThird:checked ~ .noticeThirdContent{
+  display: block;
+}
+#noticeThird:checked ~ div > label[for="noticeThird"]{
+  .addSvg{
+    display: none;
+  }
+  .minusSvg{
+    display: initial;
+  }
+}
+// 
+.addSvg, .minusSvg{
+  width: 24px;
+  height: 24px;
+  &:hover{
+    opacity: .4;
+    cursor: pointer;
+  }
+}
+.minusSvg{
+  display: none;
 }
