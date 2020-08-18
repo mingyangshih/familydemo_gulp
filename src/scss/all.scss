@@ -9,15 +9,14 @@ body{
   background: rgb(143,219,231);
   // background-image: url('../img/bg.jpg');
   font-family: "微軟正黑體", "Microsoft JhengHei";
+  .bgSetting{
+    width:100%;
+  }
 }
-.main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.mainImg{
-  max-width: 100%;
-  margin:0 auto;
+.cooperateMerchant{
+  .bgSetting{
+    width:100%;
+  }
 }
 .bgSetting{
   max-width: 100%;
@@ -25,6 +24,9 @@ body{
   img{
     max-width: 100%;
   }
+}
+.title{
+  color:#004B89;
 }
 // 秀中獎背景
 .awardBlock{
@@ -245,6 +247,10 @@ body{
     font-weight: bold;
   }
   .secondPartTitle{
+    color: #004B89;
+    font-weight: bold;
+  }
+  span{
     color: #004B89;
     font-weight: bold;
   }

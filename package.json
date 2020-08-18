@@ -16,6 +16,7 @@
     "last 10 version",
     "> 1%",
     "IE 10",
+    "IE 11",
     "> 5% in alt-AS"
   ],
   "dependencies": {
