@@ -1,3 +1,6 @@
+body{
+  font-family: 'Noto Sans TC' !important;
+}
 @import '../../bower_components/bootstrap/scss/functions';
 @import './variables';
 @import '../../bower_components/bootstrap/scss/bootstrap';
@@ -104,7 +107,6 @@ body{
 }
 // 增福運
 .titleBBox{
-  // max-width: 360px;
   max-height: 380px;
   box-sizing: border-box;
   border: #fff352 3px solid;
@@ -113,7 +115,6 @@ body{
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 170px 2fr 1fr;
-  margin-bottom: 60px;
   position: relative;
   padding: 20px 0 15px 0;
   p{
@@ -129,6 +130,10 @@ body{
     justify-content: center;
     // max-width: 360px;
     max-height: 360px;
+    img{
+      width: 90%;
+      height: auto;
+    }
   }
   .wordBox{
     grid-row:2/3;
@@ -162,7 +167,6 @@ body{
   width: 80%;
   height: 40px;
   border-radius: 20px;
-  background: #d60f0e;
   color: white;
   display: flex;
   justify-content: center;
@@ -196,6 +200,19 @@ body{
   .titleCBox{
     border: #fff352 3px solid;
     margin-bottom: 40px;
+    height: 292px;
+    .title{
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+}
+.enjoyPlus{
+  .titleCBox{
+    border: #fff352 3px solid;
+    margin-bottom: 40px;
+    height: 270px;
     .title{
       font-size: 20px;
       font-weight: bold;
@@ -214,10 +231,12 @@ body{
 // 注意事項
 .noticeItemTitle{
   .bgSetting{
-    max-width: 530px;
+    // max-width: 530px;
+    max-width: 100%;
   }
   .noticeImg{
-    max-width: 530px;
+    // max-width: 530px;
+    width: auto;
   }
 }
 .noticeItem{
@@ -245,6 +264,7 @@ body{
   li{    
     color: #004B89;
     font-weight: bold;
+    text-align: justify;
   }
   .secondPartTitle{
     color: #004B89;
@@ -255,64 +275,29 @@ body{
     font-weight: bold;
   }
 }
-// 注意事項收閡
-.noticeOneContent{
-  display: none;
-}
-#noticeOne:checked ~ .noticeOneContent{
-  display:block;
-}
-// #noticeOne ~ .noticeOneDiv{
-//   border-bottom: 1px solid #ffc107;
-// }
-#noticeOne:checked ~ .noticeOneDiv{
-  border-bottom: 0;
-}
-#noticeOne:checked ~ div > label[for="noticeOne"]{
-  .addSvg{
-    display: none;
-  }
-  .minusSvg{
-    display: initial;
+@media(min-width:768px){
+  .noticeItem{
+    li{
+      .sprite{
+        margin-left: -14px;
+      }
+    }
   }
 }
-.noticeSecondContent{
-  display: none;
+// 文字跑版修改
+.ftSmall{
+  font-size: 13px;
 }
-#noticeSecond:checked ~ .noticeSecondContent{
-  display:block;
-}
-#noticeSecond:checked ~ div > label[for="noticeSecond"]{
-  .addSvg{
-    display: none;
-  }
-  .minusSvg{
-    display: initial;
+@media(max-width:320px){
+  .seSmall{
+    font-size:13px;
+    text-align:center;
   }
 }
-.noticeThirdContent{
-  display: none;
-}
-#noticeThird:checked ~ .noticeThirdContent{
-  display: block;
-}
-#noticeThird:checked ~ div > label[for="noticeThird"]{
-  .addSvg{
-    display: none;
+
+@media(max-width:768px) {
+  .ftSmall{
+    font-size:13px;
+    text-align:center;
   }
-  .minusSvg{
-    display: initial;
-  }
-}
-// 
-.addSvg, .minusSvg{
-  width: 24px;
-  height: 24px;
-  &:hover{
-    opacity: .4;
-    cursor: pointer;
-  }
-}
-.minusSvg{
-  display: none;
 }
