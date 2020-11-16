@@ -51,5 +51,5 @@ gulp.task('image', function (done) {
     done()
 });
 
-// gulp.task('default', gulp.series('templates', 'sass', 'bower', 'image', 'browser-sync'))
-gulp.task('default', gulp.series('templates', 'sass', 'bower', 'browser-sync'))
+gulp.task('default', gulp.series('templates', 'sass', 'bower', 'image', 'browser-sync'))
+// gulp.task('default', gulp.series('templates', 'sass', 'bower', 'browser-sync'))

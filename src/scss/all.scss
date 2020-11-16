@@ -6,10 +6,10 @@ body{
 @import '../../bower_components/bootstrap/scss/bootstrap';
 @import './login';
 body{
-  background: rgb(143,219,231);
+  background:#a5192d;
 }
 .mainImage{
-  background: rgb(143,219,231);
+  background: #a5192d;
   // background-image: url('../img/bg.jpg');
   font-family: "微軟正黑體", "Microsoft JhengHei";
   .bgSetting{
@@ -29,7 +29,7 @@ body{
   }
 }
 .title{
-  color:#004B89;
+  color:#FFF;
 }
 // 秀中獎背景
 .awardBlock{
@@ -46,16 +46,19 @@ body{
     color:#004B89;
   }
   .form-control{
-    background: rgba(0,0,0,.1);
+    background: rgba(0,0,0,0);
     color: white;
+    &::placeholder{
+      color:white;
+    }
     &:focus{
       outline: none;
       box-shadow: none;
     }
   }
   .btnCustomize{
-    background: #1268AF 0% 0% no-repeat padding-box;
-    border: 4px solid #8FDBE7;
+    background:  #b91f36 0% 0% no-repeat padding-box;
+    border: 4px solid #832323;
     border-radius: 30px;
     color: white;
     height: 60px;
@@ -245,7 +248,7 @@ body{
   
   p{
     font-size: 20px;
-    color: #004B89;
+    color: white;
     font-weight: bold;
   }
   .title-S{
@@ -262,16 +265,16 @@ body{
     padding-inline-start: 25px;
   }
   li{    
-    color: #004B89;
+    color: white;
     font-weight: bold;
     text-align: justify;
   }
   .secondPartTitle{
-    color: #004B89;
+    color: white;
     font-weight: bold;
   }
   span{
-    color: #004B89;
+    color: white;
     font-weight: bold;
   }
 }
