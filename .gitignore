@@ -1,8 +1,8 @@
 .DS_Store
 node_modules/
 bower_components/
+tmp/
 /dist/
-/src/img
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
