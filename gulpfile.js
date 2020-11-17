@@ -1,4 +1,6 @@
 let gulp = require('gulp')
+// 上傳github
+let ghPages = require('gulp-gh-pages');
 let autoprefixer = require('autoprefixer');
 const concat = require('gulp-concat');
 // gulp相關套件可直接由這個載入
@@ -11,8 +13,8 @@ let mainBowerFiles = require('main-bower-files');
 const sourcemaps = require('gulp-sourcemaps');
 // 壓縮css
 const cleanCSS = require('gulp-clean-css');
+// 抓環境變數參數
 const minimist = require('minimist');
-// 
 let envOptions = {
   string : 'env',
   default : {
@@ -88,10 +90,15 @@ gulp.task('image', function (done) {
 
 
 // 產出production用
-gulp.task('build', gulp.series('clean','templates', 'sass', 'bower', 'vendorJS'))
+gulp.task('build', gulp.series('clean','templates', 'sass', 'bower', 'vendorJS', 'image'))
 // 開發用
 gulp.task('default', gulp.series('templates', 'sass', 'bower','vendorJS', 'image', 'browser-sync'))
 
+// 傳到github上用
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
+});
 
 
 
