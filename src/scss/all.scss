@@ -77,15 +77,16 @@ body{
     vertical-align: middle;
     color: white;
     font-size: 4vmin;
+    white-space: nowrap;
   }
   td{
     background: white;
-    color: #666666;
+    color: black;
     text-align: center;
     vertical-align: middle;
     font-size: 3vmin;
     font-weight: bold;
-    border-bottom: #666666 1px solid;
+    border-bottom: #666666 0px solid;
   }
 }
 @media(min-width: 1024px){
@@ -95,6 +96,7 @@ body{
     }
     td{
       font-size: 16px;
+
     }
   }
 }
@@ -266,7 +268,7 @@ body{
   }
   li{    
     color: white;
-    font-weight: bold;
+    // font-weight: bold;
     text-align: justify;
   }
   .secondPartTitle{
