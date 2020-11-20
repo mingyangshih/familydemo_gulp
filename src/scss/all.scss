@@ -22,7 +22,7 @@ body{
   }
 }
 .bgSetting{
-  max-width: 100%;
+  width: 100%;
   height: auto;
   img{
     max-width: 100%;
@@ -232,6 +232,9 @@ body{
   .bgSetting{
     max-width: 530px;
   }
+}
+.cooperateMerchantImg{
+  width:100%;
 }
 // 注意事項
 .noticeItemTitle{
