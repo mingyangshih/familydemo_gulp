@@ -10898,10 +10898,6 @@ body {
   font-family: "微軟正黑體", "Microsoft JhengHei";
 }
 
-.mainImage .bgSetting {
-  width: 100%;
-}
-
 .cooperateMerchant .bgSetting {
   width: 100%;
 }
@@ -10909,6 +10905,7 @@ body {
 .bgSetting {
   width: 100%;
   height: auto;
+  text-align: center;
 }
 
 .bgSetting img {
