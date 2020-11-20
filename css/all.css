@@ -10907,7 +10907,7 @@ body {
 }
 
 .bgSetting {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -11180,6 +11180,10 @@ body {
 
 .cooperate .bgSetting {
   max-width: 530px;
+}
+
+.cooperateMerchantImg {
+  width: 100%;
 }
 
 .noticeItemTitle .bgSetting {
