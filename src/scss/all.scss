@@ -12,9 +12,14 @@ body{
   background: #a5192d;
   // background-image: url('../img/bg.jpg');
   font-family: "微軟正黑體", "Microsoft JhengHei";
-  .bgSetting{
-    width:100%;
-  }
+  // .bgSetting{
+  //   width: 100%;
+  //   height: auto;
+  //   display: flex;
+  //   img{
+  //     max-width: 100%;
+  //   }
+  // }
 }
 .cooperateMerchant{
   .bgSetting{
@@ -24,6 +29,7 @@ body{
 .bgSetting{
   width: 100%;
   height: auto;
+  text-align: center;
   img{
     max-width: 100%;
   }
