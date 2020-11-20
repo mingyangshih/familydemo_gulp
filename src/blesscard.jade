@@ -1,83 +1,68 @@
-<!DOCTYPE html>
-html(lang="en")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    meta(name="keywords" content="全家, 樂天, 球員, 時尚, 樂天時尚, 球員卡")
-    title 樂天時尚球員卡
-    link(rel="icon" type="image/png" href="https://www.family.com.tw/LOGO.ico")
-    link(rel="stylesheet", href="./css/all.css")
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
-    //- fb
-    <meta property="og:title" content="樂天時尚球員卡">
-    <meta property="og:image" content="https://www.family.com.tw/LOGO.ico">
-  body()
-    .container.mainImage
-      .row.justify-content-center
-        .bgSetting
-          img(src="./img/kv.jpg" alt="").img-fluid
-    .container.awardBlock
-      .row
-        .col-12.d-flex.justify-content-center
-          .showPresentBox.d-flex.flex-column.justify-content-center.align-items-center.w-100
-            h3.font-weight-bold.title.text-center.text-light.mb-3 110/01/29 前公布中獎名單
-            input(type="text" placeholder="手機掃描卡面登陸抽獎序號" disabled).form-control.rounded-0.w-100.text-center.mb-3
-            button.btn.btnCustomize.w-75.font-weight-bold.d-flex.justify-content-center.align-items-center
-              img(src="./img/hand.png")
-              p.mb-0.ml-2 登錄抽獎
-    .container
-      .row.justify-content-center
-        h3.font-weight-bold.title 登錄紀錄
-        .table-responsive.my-3
-          table.table
-            thead
-              tr()
-                th(scope='col').border-top-0.bg-danger 排序
-                th(scope='col').border-top-0.bg-danger 登入時間
-                th(scope='col').border-top-0.bg-danger 抽獎號碼
-            tbody
-              tr
-                td(scope='row') 1
-                td 2020-08-17
-                td 0000000000000000
-                
-    .container.mb-4
-      .row.justify-content-center
-        .bgSetting
-          img(src="./img/titleB.png").img-fluid.px-3
-    .container
-      .row.justify-content-center
-        .col-md-6.px-1.mt-2
-          img(src="./img/girls.jpg").img-fluid
-        .col-md-6.px-1.mt-2         
-          img(src="./img/ticket.jpg" ).img-fluid
-        .col-md-12.mt-3
-          .buttonBox.d-flex.justify-content-center
-            a(href="./file/樂天時尚球員卡抽獎_中獎回函.doc" download="樂天時尚球員卡抽獎_中獎回函.doc").button.my-2.text-decoration-none.bg-primary 下載樂天時尚球員卡中獎回函
-    .container.my-4
-      .row.justify-content-center
-        .bgSetting
-          img(src="./img/titleE.png").img-fluid.px-3
-    .container.noticeItem
-      //- 注意事項
-      .row.justify-content-center
-        .bgSetting.px-3.w-100.text-center
-          img(src="./img/noticeTitle.png").mb-4.img-fluid.noticeImg
-      p 「樂天時尚球員卡抽獎」活動說明
-      input(type="checkbox" id="noticeOne" checked).d-none     
-      //- div.noticeOneDiv
-      //-   label(for="noticeOne").title-S.d-flex.align-items-center.mb-4
-      //-     p.mb-0.ml-2.mr-auto 壹、活動辦法及注意事項：
-      //-     img(src="./img/add.svg" style="width: 24px; height: 24px;").ml-3.addSvg
-      //-     img(src="./img/minus.svg" style="width: 24px; height: 24px;").ml-3.minusSvg
-      ol.noticeOneContent
-        li 活動販售期間：自2020年12月16日起至2020年12月29日止。
-        li 活動辦法：於活動期間內消費滿額獲得或是預購整套球員卡，並於登入球員卡上抽獎序號及全家會員，即符合抽獎資格，商品數量有限，售完為止。
-        li 活動獎項為職棒32年Rakuten假日主場首戰門票5名、與樂天女孩共進晚餐5名(女孩出席名單待確認活動時間後公告，圖片僅供示意)。
-        li 中獎者若未滿20歲須獲得法定代理人同意並代為領取。依中華民國所得稅法規定，凡中獎價值超過新台幣$1,000元者，獎項將須列入個人年度綜合所得稅申報(稅額以獎品市價計算)。中獎價值超過新台幣$20,000元者，須繳納10%稅金(非中華民國境內居住之個人，依法扣繳20%稅金。又稅額以獎品市價計算)，全家便利商店依法代收中獎稅金，若中獎人未能如期依法繳納應繳稅額，即視為放棄得獎資格。
-        li 後續中獎回函需回拍整張球員卡(含序號)，經比對核實後，才確實符合中獎資格，若提供資料不符或無法辨識，視同無效。如有仿冒、變造或以違法途徑取得中獎者，除不得兌獎外，主辦單位將保留法律追訴權。 
-        li 獎項詳細內容與規格以實物為準，主辦單位不負贈品之任何維護或保固責任 ，如有未盡事宜，全家便利商店擁有保留、修改、暫停及解釋活動內容之權利，修改訊息將於活動網頁公佈，恕不另行通知。本活動主辦單位為：全家便利商店股份有限公司；負責人：葉榮廷；公司地址：臺北市中山區中山北路2段61號7樓；商品預購如有疑問請洽詢現場服務人員或服務電話：0800-221-363。        
-        li 活動抽獎時間:
+extend ./partial/layout.jade
+block content
+  include ./partial/topimg.jade
+  .container.awardBlock
+    .row
+      .col-12.d-flex.justify-content-center
+        .showPresentBox.d-flex.flex-column.justify-content-center.align-items-center.w-100
+          h3.font-weight-bold.title.text-center.text-light.mb-3 110/01/29 前公布中獎名單
+          input(type="text" placeholder="手機掃描卡面登陸抽獎序號" disabled).form-control.rounded-0.w-100.text-center.mb-3
+          button.btn.btnCustomize.w-75.font-weight-bold.d-flex.justify-content-center.align-items-center
+            img(src="./img/hand.png")
+            p.mb-0.ml-2 登錄抽獎
+  .container
+    .row.justify-content-center
+      h3.font-weight-bold.title 登錄紀錄
+      .table-responsive.my-3
+        table.table
+          thead
+            tr()
+              th(scope='col').border-top-0.bg-danger 排序
+              th(scope='col').border-top-0.bg-danger 登入時間
+              th(scope='col').border-top-0.bg-danger 抽獎號碼
+          tbody
+            tr
+              td(scope='row') 1
+              td 2020-08-17
+              td 0000000000000000
+              
+  .container.mb-4
+    .row.justify-content-center
+      .bgSetting
+        img(src="./img/titleB.png").img-fluid.px-3
+  .container
+    .row.justify-content-center
+      .col-md-6.px-1.mt-2
+        img(src="./img/girls.jpg").img-fluid
+      .col-md-6.px-1.mt-2         
+        img(src="./img/ticket.jpg" ).img-fluid
+      .col-md-12.mt-3
+        .buttonBox.d-flex.justify-content-center
+          a(href="./file/樂天時尚球員卡抽獎_中獎回函.doc" download="樂天時尚球員卡抽獎_中獎回函.doc").button.my-2.text-decoration-none.bg-primary 下載樂天時尚球員卡中獎回函
+  .container.my-4
+    .row.justify-content-center
+      .bgSetting
+        img(src="./img/titleE.png").img-fluid.px-3
+  .container.noticeItem
+    //- 注意事項
+    .row.justify-content-center
+      .bgSetting.px-3.w-100.text-center
+        img(src="./img/noticeTitle.png").mb-4.img-fluid.noticeImg
+    p 「樂天時尚球員卡抽獎」活動說明
+    input(type="checkbox" id="noticeOne" checked).d-none     
+    //- div.noticeOneDiv
+    //-   label(for="noticeOne").title-S.d-flex.align-items-center.mb-4
+    //-     p.mb-0.ml-2.mr-auto 壹、活動辦法及注意事項：
+    //-     img(src="./img/add.svg" style="width: 24px; height: 24px;").ml-3.addSvg
+    //-     img(src="./img/minus.svg" style="width: 24px; height: 24px;").ml-3.minusSvg
+    ol.noticeOneContent
+      li 活動販售期間：自2020年12月16日起至2020年12月29日止。
+      li 活動辦法：於活動期間內消費滿額獲得或是預購整套球員卡，並於登入球員卡上抽獎序號及全家會員，即符合抽獎資格，商品數量有限，售完為止。
+      li 活動獎項為職棒32年Rakuten假日主場首戰門票5名、與樂天女孩共進晚餐5名(女孩出席名單待確認活動時間後公告，圖片僅供示意)。
+      li 中獎者若未滿20歲須獲得法定代理人同意並代為領取。依中華民國所得稅法規定，凡中獎價值超過新台幣$1,000元者，獎項將須列入個人年度綜合所得稅申報(稅額以獎品市價計算)。中獎價值超過新台幣$20,000元者，須繳納10%稅金(非中華民國境內居住之個人，依法扣繳20%稅金。又稅額以獎品市價計算)，全家便利商店依法代收中獎稅金，若中獎人未能如期依法繳納應繳稅額，即視為放棄得獎資格。
+      li 後續中獎回函需回拍整張球員卡(含序號)，經比對核實後，才確實符合中獎資格，若提供資料不符或無法辨識，視同無效。如有仿冒、變造或以違法途徑取得中獎者，除不得兌獎外，主辦單位將保留法律追訴權。 
+      li 獎項詳細內容與規格以實物為準，主辦單位不負贈品之任何維護或保固責任 ，如有未盡事宜，全家便利商店擁有保留、修改、暫停及解釋活動內容之權利，修改訊息將於活動網頁公佈，恕不另行通知。本活動主辦單位為：全家便利商店股份有限公司；負責人：葉榮廷；公司地址：臺北市中山區中山北路2段61號7樓；商品預購如有疑問請洽詢現場服務人員或服務電話：0800-221-363。        
+      li 活動抽獎時間:
   .container.px-0.mt-3
     .table-responsive
       table.table
