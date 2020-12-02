@@ -1,4 +1,6 @@
 extend ./partial/layout.jade
+block title
+  title 樂天時尚球員卡-活動頁
 block content
   include ./partial/topimg.jade
   .container.awardBlock
@@ -6,25 +8,25 @@ block content
       .col-12.d-flex.justify-content-center
         .showPresentBox.d-flex.flex-column.justify-content-center.align-items-center.w-100
           h3.font-weight-bold.title.text-center.text-light.mb-3 110/01/29 前公布中獎名單
-          input(type="text" placeholder="手機掃描卡面登錄抽獎序號" disabled).form-control.rounded-0.w-100.text-center.mb-3
+          input(type="text" placeholder="手機掃描卡面登錄抽獎序號").form-control.rounded-0.w-100.text-center.mb-3
           button.btn.btnCustomize.w-75.font-weight-bold.d-flex.justify-content-center.align-items-center
             img(src="./img/hand.png")
             p.mb-0.ml-2 登錄抽獎
-  .container
-    .row.justify-content-center
-      h3.font-weight-bold.title 登錄紀錄
-      .table-responsive.my-3
-        table.table
-          thead
-            tr()
-              th(scope='col').border-top-0.bg-danger 排序
-              th(scope='col').border-top-0.bg-danger 登入時間
-              th(scope='col').border-top-0.bg-danger 抽獎號碼
-          tbody
-            tr
-              td(scope='row') 1
-              td 2020-08-17
-              td 0000000000000000
+  //- .container
+  //-   .row.justify-content-center
+  //-     h3.font-weight-bold.title 登錄紀錄
+  //-     .table-responsive.my-3
+  //-       table.table
+  //-         thead
+  //-           tr()
+  //-             th(scope='col').border-top-0.bg-danger 排序
+  //-             th(scope='col').border-top-0.bg-danger 登入時間
+  //-             th(scope='col').border-top-0.bg-danger 抽獎號碼
+  //-         tbody
+  //-           tr
+  //-             td(scope='row') 1
+  //-             td 2020-08-17
+  //-             td 0000000000000000
               
   .container.mb-4
     .row.justify-content-center
